@@ -17,6 +17,7 @@
 		<div class="container-fluid">
 			<div class="row mt-3">
 <!-- Pasek boczny -->
+<!-- Warunek do wyświetlania zdjęcia -->
                     <?php
                     if (isset($_GET['book'])) 
                     {
