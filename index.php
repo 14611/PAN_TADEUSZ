@@ -17,7 +17,11 @@
 		<div class="container-fluid">
 			<div class="row mt-3">
 <!-- Pasek boczny -->
+<<<<<<< HEAD
 <!-- Warunek do wyświetlania zdjęcia -->
+=======
+<!-- Warunek do długości spisu treści -->
+>>>>>>> index
                     <?php
                     if (isset($_GET['book'])) 
                     {
@@ -45,7 +49,11 @@
 						<h1>Pan Tadeusz, czyli ostatni zajazd na Litwie: historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem.</h1>
 					</div>
 					<?php
+<<<<<<< HEAD
                     // Warunek dla strony index.php
+=======
+// Warunek dla strony index.php
+>>>>>>> index
                     if (!isset($_GET['book'])) 
                     {
                         echo '<div class="text-center mb-0"><img src="1.jpg" alt="Obraz"></div>';
